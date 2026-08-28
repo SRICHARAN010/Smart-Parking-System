@@ -66,3 +66,12 @@ The system periodically retrieves parking-slot information from the server using
 
 ```text
 GET /api/slots
+```
+
+### 2. Update Parking Slot Status
+
+When the occupancy status of a parking slot changes, the ESP32-S3 sends an update to the server using a `POST` request.
+
+```text
+POST /api/update-slot
+```
