@@ -1,16 +1,16 @@
-# 🚗 Smart Parking System
+#  Smart Parking System
 
 An **IoT-enabled Smart Parking System** developed as a **Cyber-Physical Systems (CPS)** project. The system integrates **vehicle entry management, real-time parking-slot monitoring, and exit management** using embedded controllers, sensors, and cloud-based communication.
 
 ---
 
-## 📌 Overview
+##  Overview
 
 The Smart Parking System is designed to automate and monitor different stages of a parking facility. The project consists of three major modules:
 
-- 🚘 **Entry System**
-- 🅿️ **Parking Slot Monitoring System**
-- 🚪 **Exit System**
+-  **Entry System**
+-  **Parking Slot Monitoring System**
+-  **Exit System**
 
 The system combines embedded hardware, sensor interfacing, programming, Wi-Fi communication, and cloud APIs to provide real-time monitoring and management of parking slots.
 
@@ -18,9 +18,9 @@ The parking module uses an **ESP32-S3** and **IR sensors** to detect vehicle occ
 
 ---
 
-# ⚙️ System Modules
+#  System Modules
 
-## 🚘 Entry System
+##  Entry System
 
 The entry module handles vehicle entry into the parking system and performs the required entry operations before allowing access to the parking area.
 
@@ -28,7 +28,7 @@ The module forms the first stage of the Smart Parking System and works together 
 
 ---
 
-## 🅿️ Parking Slot Monitoring System
+##  Parking Slot Monitoring System
 
 The parking monitoring module continuously monitors the occupancy status of three parking slots.
 
@@ -46,7 +46,7 @@ The OLED display shows the total number of available parking slots in real time.
 
 ---
 
-## 🚪 Exit System
+##  Exit System
 
 The exit module handles vehicle exit operations from the parking facility.
 
@@ -54,7 +54,7 @@ It works as the final stage of the Smart Parking System and supports the overall
 
 ---
 
-# 🌐 Cloud Integration
+#  Cloud Integration
 
 The parking monitoring system uses **Wi-Fi connectivity** to communicate with a cloud server.
 
